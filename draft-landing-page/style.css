@@ -86,3 +86,68 @@ footer {
     max-width: 150px;
 }
 
+.footer-info {
+    display: flex;
+}
+
+.footer-col {
+    width: 200px;
+}
+
+.footer-info li {
+    list-style-type: none;
+}
+
+.footer-info ul {
+    padding-inline-start: 0;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: white;
+    line-height: 2.5;
+}
+
+.footer-info-contact p {
+    color: white;
+    margin: 0;
+}
+
+.social-icons svg {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.footer-heading {
+    color: var(--red);
+    font-size: 17px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.associations {
+    display: flex;
+}
+
+
+@media (min-width: 992px) {
+    footer {
+        padding: 100px 125px 40px;
+    }
+
+}
+
+
+
+
+
+
+
