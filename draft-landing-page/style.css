@@ -1,6 +1,7 @@
 :root {
     --red: #e83b3b;
     --green: #03cea4;
+    --white: #ffffff;
 }
 
 header {
@@ -70,20 +71,28 @@ footer {
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 220px;
+}
+
+p.future {
+    font-family: raisonnedemibold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0;
 }
 
 .awards {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .fibre-award {
-    max-width: 200px;
+    max-height: 120px;
 }
 
 .mcr-business  {
-    max-width: 150px;
+    max-height: 150px;
 }
 
 .footer-info {
@@ -91,11 +100,16 @@ footer {
 }
 
 .footer-col {
-    width: 200px;
+    
+    margin: 0 20px;
 }
 
 .footer-info li {
     list-style-type: none;
+}
+
+.footer-info a:hover {
+    color: var(--red)
 }
 
 .footer-info ul {
@@ -104,37 +118,71 @@ footer {
 
 .footer-info a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
     line-height: 2.5;
 }
 
 .footer-info-contact p {
-    color: white;
+    color: var(--white);
     margin: 0;
+}
+
+.footer-info-contact img {
+    margin-right: 20px;
+
 }
 
 .social-icons svg {
     width: 25px;
     margin-right: 20px;
+    fill: var(--white)
 }
+
+.social-icons svg:hover {
+    fill: var(--red)
+}
+
 
 .footer-heading {
     color: var(--red);
     font-size: 17px;
+    margin-top: 0;
 }
 
 .footer-top {
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px -0.5px 0px var(--white);
+    padding-top: 60px;
 }
 
 .footer-row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 48px 0;
 }
 
 .associations {
     display: flex;
+}
+
+.conditions a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.conditions a:hover {
+    color: var(--red);
+}
+
+main#tp-widget-wrapper {
+    margin: 0;
+}
+
+.tp-widget-wrapper {
+    margin: 0!important;
 }
 
 
