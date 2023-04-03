@@ -4,6 +4,7 @@
     --white: #ffffff;
 }
 
+
 header {
     height: 97px;
     border-bottom: 1px solid red;
@@ -31,39 +32,22 @@ body {
     height: 100%;
 }
 
-@media (min-width: 576px) {
-    .container {
-        max-width:540px
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width:720px
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        max-width:960px
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width:1140px
-    }
-}
-
-@media (min-width: 1400px) {
-    .container {
-        max-width:1320px
-    }
-}
 
 
 footer {
     background-color: #15152e;
+    width: 100%;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top, .footer-bottom {
+
+    width: 100%;
+
 }
 
 .footer-logos {
@@ -84,6 +68,7 @@ p.future {
 
 .awards {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -97,11 +82,14 @@ p.future {
 
 .footer-info {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-col {
+    padding: 0 12px;
+    flex: 0 0 auto;
+    width: 40%;
     
-    margin: 0 20px;
 }
 
 .footer-info li {
@@ -119,7 +107,11 @@ p.future {
 .footer-info a {
     text-decoration: none;
     color: var(--white);
-    line-height: 2.5;
+    
+}
+
+.footer-info-links li {
+    margin-bottom: 1rem;
 }
 
 .footer-info-contact p {
@@ -138,6 +130,10 @@ p.future {
     fill: var(--white)
 }
 
+.footer-socials.footer-col {
+    width: 75%;
+}
+
 .social-icons svg:hover {
     fill: var(--red)
 }
@@ -151,6 +147,7 @@ p.future {
 
 .footer-top {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     box-shadow: 0px -0.5px 0px var(--white);
     padding-top: 60px;
@@ -158,6 +155,7 @@ p.future {
 
 .footer-row {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
     margin: 48px 0;
@@ -177,13 +175,8 @@ p.future {
     color: var(--red);
 }
 
-main#tp-widget-wrapper {
-    margin: 0;
-}
 
-.tp-widget-wrapper {
-    margin: 0!important;
-}
+
 
 
 @media (min-width: 992px) {
@@ -193,6 +186,61 @@ main#tp-widget-wrapper {
 
 }
 
+
+
+@media (min-width: 576px) {
+    .container {
+        max-width:540px
+    }
+
+    
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width:720px
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .footer-top {
+        flex-direction: row;
+    }
+
+    .footer-row {
+        flex-direction: row;
+    }
+
+    .awards {
+        flex-direction: row;
+    }
+
+    .footer-col {
+        flex: 1 0 0%;
+        
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width:1140px
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width:1320px
+    }
+}
+
+main#tp-widget-wrapper {
+    margin: 0!important;
+}
 
 
 
