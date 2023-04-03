@@ -1,3 +1,8 @@
+:root {
+    --red: #e83b3b;
+    --green: #03cea4;
+}
+
 header {
     height: 97px;
     border-bottom: 1px solid red;
@@ -54,3 +59,30 @@ body {
         max-width:1320px
     }
 }
+
+
+footer {
+    background-color: #15152e;
+}
+
+.footer-logos {
+    color: var(--red)
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.awards {
+    display: flex;
+    justify-content: center;
+}
+
+.fibre-award {
+    max-width: 200px;
+}
+
+.mcr-business  {
+    max-width: 150px;
+}
+
