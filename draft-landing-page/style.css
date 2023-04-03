@@ -32,6 +32,22 @@ body {
     height: 100%;
 }
 
+.features {
+    position: relative;
+    height: 700px;
+}
+
+.animated {
+    display: none;
+  }
+  
+  .static-img:hover + .animated {
+    display: inline-block;
+  }
+  
+  .static-img, .animated {
+      position: absolute;
+  }
 
 
 footer {
@@ -205,6 +221,9 @@ p.future {
     fill: var(--white);
     width: 25px;
 }
+
+
+
 
 
 
