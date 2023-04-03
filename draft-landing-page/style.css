@@ -37,6 +37,7 @@ body {
 footer {
     background-color: #15152e;
     width: 100%;
+    position: relative;
 }
 
 footer .container {
@@ -126,7 +127,7 @@ p.future {
 
 .social-icons svg {
     width: 25px;
-    margin-right: 20px;
+    margin-right: 12px;
     fill: var(--white)
 }
 
@@ -182,7 +183,28 @@ p.future {
 
 
 
+.chevron-icon {
+    background-color: var(--green);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    height: 57px;
+    padding-bottom: 2px;
+    position: absolute;
+    right: 30px;
+    top: -23.5px;
+    transition: .3s;
+    width: 57px;
+    z-index: 9;
+    display: grid;
+    place-content: center;
 
+}
+
+.chevron-icon svg {
+    fill: var(--white);
+    width: 25px;
+}
 
 
 
@@ -236,11 +258,10 @@ p.future {
 
     .footer-bottom {
         border-top: none;
-    }
-
-    
-    
+    } 
 }
+
+
 
 @media (min-width: 1200px) {
     .container {
