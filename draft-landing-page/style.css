@@ -18770,3 +18770,15 @@ svg.ionicon.s-ion-icon {
 .ff-container.ff-ready.ff-inactive {
     position: relative;
 }
+
+.bullet-point {
+    display: flex;
+}
+
+.hero-section {
+    color: white;
+    background: linear-gradient(180deg, #15152E 55.67%, #E83B3B 136.32%);
+    height: 75vh;
+    padding: 50px; 
+    align-items: center;
+}
