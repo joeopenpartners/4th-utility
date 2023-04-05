@@ -18782,3 +18782,14 @@ svg.ionicon.s-ion-icon {
     padding: 50px; 
     align-items: center;
 }
+
+.code-copied {
+    border: 3px solid #03CEA4;
+    color: #03CEA4!important;
+    border-radius: 40px;
+    background: none!important;
+}
+
+.tick-copied {
+  margin-left: 20px;
+}
