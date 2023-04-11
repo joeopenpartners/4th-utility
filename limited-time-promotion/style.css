@@ -18876,6 +18876,31 @@ a.button.get-started.hover-none {
   margin-top: 20px;
 }
 
+.s-ion-icon {
+  animation-name: toggle;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  margin-right: 10px;
+}
+
+@keyframes toggle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
 
 
 @media (min-width: 576px) {
