@@ -18793,13 +18793,13 @@ svg.ionicon.s-ion-icon {
 
 .code-copied {
     border: 3px solid #03CEA4;
-    color: #03CEA4!important;
+    color: white!important;
     border-radius: 40px;
-    background: none!important;
+    background: #03CEA4!important;
 }
 
 .tick-copied {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .promo-code {
