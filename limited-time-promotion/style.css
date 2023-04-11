@@ -18783,6 +18783,10 @@ svg.ionicon.s-ion-icon {
     align-items: center;
 }
 
+.btn-wrap {
+  display: flex;
+}
+
 .code-copied {
     border: 3px solid #03CEA4;
     color: #03CEA4!important;
@@ -18792,4 +18796,8 @@ svg.ionicon.s-ion-icon {
 
 .tick-copied {
   margin-left: 20px;
+}
+
+.promo-code {
+  background-color: white;
 }
