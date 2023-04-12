@@ -18783,7 +18783,7 @@ svg.ionicon.s-ion-icon {
 
 .hero-section {
     color: white;
-    background: linear-gradient(296deg, #E83B3B -15.81%, #15152E 53.09%);
+    background: #15152E;
     height: 100%;
     padding: 50px; 
     align-items: center;
@@ -18799,22 +18799,12 @@ svg.ionicon.s-ion-icon {
 }
 
 h1 {
-  max-width: 550px;
-}
-
-.tp-widget-wrapper {
-  text-align: left!important;
-}
-
-.tp-widget-wrapper {
-  height: 100%;
-  margin: 0 auto;
-  max-width: 100px;
-  position: relative;
+  max-width: 570px;
 }
 
 .tp-wrap {
   max-width: 300px;
+  
 }
 
 .btn-wrap {
@@ -18863,20 +18853,27 @@ a.button.get-started.hover-none {
   border-radius: 40px;
   width: 110px;
   color: #03CEA4;
-  
+  font-weight: 600;
+  cursor: pointer;
 }
+
+.copy-btn:hover {
+  /*     background: rgb(229 241 239); */
+      box-shadow: 0 0 20px rgba(0,0,0,.25);
+      transition: all 0.2s linear 0s;
+  }
 
 .copy-btn svg {
   margin-right: 10px;
 }
 
 .please-note {
-  font-size: 12px;
+  font-size: 13px;
   max-width: 650px;
   margin-top: 20px;
 }
 
-.s-ion-icon {
+.lightning {
   animation-name: toggle;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -18911,6 +18908,10 @@ a.button.get-started.hover-none {
 
 @media (min-width: 768px) {
 
+  .hero-section {
+    background: linear-gradient(296deg, #E83B3B -15.81%, #15152E 53.09%); 15152E
+  }
+
   .tp-wrap.mobile {
     display: none;
   }
@@ -18936,10 +18937,12 @@ a.button.get-started.hover-none {
 
 
 @media (max-width: 768px) {
+
   h1 {
     font-size: 28px;
-    line-height: 1.1;
     text-align: center;
+    line-height: 1.2;
+    margin-bottom: 0;
   }
 
   .bullet-point p {
@@ -18947,20 +18950,21 @@ a.button.get-started.hover-none {
   }
 
   .hero-section {
-    padding: 15px;
-    height: 100%;
+    padding:  30px 15px;
+    min-height: calc(100vh - 142px);
 }
 .hero-wrap.container {
   height: 100%;
+  gap: 35px;
 }
 
 .cta-promo p:nth-child(1) {
   font-size: 14px;
-  margin-bottom: 5px;
+  text-align: center;
 }
 
 p.please-note {
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 .tp-wrap.desktop {
@@ -18977,13 +18981,15 @@ a.button.get-started.hover-none {
 }
 
 .tp-wrap.mobile {
-  max-width: 329px;
+  max-width: 360px;
 }
   
 }
-@media (min-width: 992px) {
+@media (max-width: 380px) {
 
-  
+  .hero-wrap.container {
+    gap: 15px;
+  }
   
 }
 
