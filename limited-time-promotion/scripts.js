@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var staticImg = document.querySelector(".static-img");
   // copy to clipboard
 
-  var promoBtn = document.querySelector(".copy-btn");
+  var promoBtn = document.querySelector(".promo-code");
 
   function copyToClipboard(text) {
     navigator.clipboard
