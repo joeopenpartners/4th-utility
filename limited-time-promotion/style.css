@@ -16158,7 +16158,7 @@ small {
   .h1,
   h1 {
     font-size: 5vw;
-    line-height: 40px;
+    line-height: 1.1;
   }
 }
 
@@ -18852,6 +18852,7 @@ a.button.get-started.hover-none {
   padding: 15px 0;
 }
 
+   
 .copy-btn {
   display: flex;
   justify-content: center;
