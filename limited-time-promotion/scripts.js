@@ -36,16 +36,3 @@ document.addEventListener("DOMContentLoaded", function () {
     copyToClipboard(copyText);
   });
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-  
-
-  animatedImg.addEventListener("mouseenter", () => {
-    animatedImg.src = animatedImg.src;
-    console.log(animatedImg.src);
-  });
-
-  animatedImg.addEventListener("mouseleave", () => {
-    animatedImg.src = staticImg.src;
-  });
-});
