@@ -18757,6 +18757,7 @@ svg.ionicon.s-ion-icon {
 
 .static-img:hover + .animated-open {
   display: block;
+  pointer-events: none;
 }
 
 .static-img, .animated-open {
